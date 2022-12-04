@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jentayu-VTOL/website.git"
+    "url": "git+https://github.com/jentayu-vtol/website.git"
   },
   "author": "Muhammad Bhaska <muhammadbhaska0@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jentayu-VTOL/website/issues"
+    "url": "https://github.com/jentayu-vtol/website/issues"
   },
-  "homepage": "https://github.com/Jentayu-VTOL/website#readme",
+  "homepage": "https://github.com/jentayu-vtol/website#readme",
   "dependencies": {
     "@tabler/icons": "^1.114.0",
     "framer-motion": "^7.6.18",

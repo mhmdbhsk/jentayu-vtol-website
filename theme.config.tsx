@@ -1,6 +1,7 @@
 import { DocsThemeConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 import Logo from "./components/Logo";
+import Link from "next/link";
 
 const config: DocsThemeConfig = {
   logo: <Logo />,
@@ -23,7 +24,11 @@ const config: DocsThemeConfig = {
     ),
   },
   editLink: {
-    text: "Edit halaman ini di GitHub",
+    text: (
+      <Link href="https://github.com/Jentayu-VTOL/website" target="_blank">
+        Edit halaman ini di GitHub
+      </Link>
+    ),
   },
   head: (
     <>
