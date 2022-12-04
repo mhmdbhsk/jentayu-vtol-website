@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
+  "name": "jentayu-vtol-website",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "Jentayu VTOL Official Website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/Jentayu-VTOL/website.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "Muhammad Bhaska <muhammadbhaska0@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/Jentayu-VTOL/website/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://github.com/Jentayu-VTOL/website#readme",
   "dependencies": {
     "@tabler/icons": "^1.114.0",
     "framer-motion": "^7.6.18",
