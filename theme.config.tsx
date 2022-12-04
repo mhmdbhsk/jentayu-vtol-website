@@ -17,18 +17,10 @@ const config: DocsThemeConfig = {
     placeholder: "Cari di sini...",
   },
   feedback: {
-    content: (
-      <a href="https://wa.me/6285156282653" target="_blank">
-        Ada pertanyaan? Hubungi kami
-      </a>
-    ),
+    content: "Ada saran? Beri umpan balik",
   },
   editLink: {
-    text: (
-      <Link href="https://github.com/Jentayu-VTOL/website" target="_blank">
-        Edit halaman ini di GitHub
-      </Link>
-    ),
+    text: "Edit halaman ini di GitHub",
   },
   head: (
     <>
@@ -38,39 +30,32 @@ const config: DocsThemeConfig = {
       <meta httpEquiv="Content-Language" content="en" />
       <meta
         name="description"
-        content="Make beautiful websites with Next.js & MDX."
+        content="Official landing page and documentation for Jentayu VTOL Division."
       />
       <meta
         name="og:description"
-        content="Make beautiful websites with Next.js & MDX."
+        content="Official landing page and documentation for Jentayu VTOL Division."
       />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://nextra.site/og.jpeg" />
-      <meta name="twitter:site:domain" content="nextra.site" />
-      <meta name="twitter:url" content="https://nextra.site" />
-      <meta name="og:title" content="Nextra" />
-      <meta name="og:image" content="https://nextra.site/og.jpeg" />
-      <meta name="apple-mobile-web-app-title" content="Nextra" />
+      <meta name="twitter:image" content="https://jentayu.vercel.app/og.jpeg" />
+      <meta name="twitter:site:domain" content="jentayu.vercel.app" />
+      <meta name="twitter:url" content="https://jentayu.vercel.app" />
+      <meta name="og:title" content="Jentayu VTOL Official Site" />
+      <meta name="og:image" content="https://jentayu.vercel.app/og.jpeg" />
+      <meta name="apple-mobile-web-app-title" content="Jentayu" />
       <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-      <link rel="icon" href="/favicon.png" type="image/png" />
       <link
         rel="icon"
-        href="/favicon-dark.svg"
+        href="/favicon.svg"
         type="image/svg+xml"
-        media="(prefers-color-scheme: dark)"
-      />
-      <link
-        rel="icon"
-        href="/favicon-dark.png"
-        type="image/png"
         media="(prefers-color-scheme: dark)"
       />
     </>
   ),
   project: {
-    link: "https://github.com/shuding/nextra-docs-template",
+    link: "https://github.com/jentayu-vtol",
   },
-  docsRepositoryBase: "https://github.com/shuding/nextra-docs-template",
+  docsRepositoryBase: "https://github.com/jentayu-vtol/website",
   footer: {
     text: () => {
       return (
@@ -81,7 +66,7 @@ const config: DocsThemeConfig = {
               target="_blank"
               rel="noopener noreferrer"
               title="vercel.com homepage"
-              href="https://vercel.com?utm_source=nextra.site"
+              href="https://vercel.com?utm_source=jentayu.vercel.app"
             >
               <span>Powered by</span>
               <svg height={20} viewBox="0 0 283 64" fill="none">
@@ -93,7 +78,9 @@ const config: DocsThemeConfig = {
               </svg>
             </a>
           </div>
-          <p className="mt-6 text-xs">© 2022 Jentayu Project.</p>
+          <p className="mt-6 text-xs">
+            © 2022 Jentayu Project. by Muhammad Bhaska
+          </p>
         </div>
       );
     },

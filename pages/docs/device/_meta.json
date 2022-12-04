@@ -1,6 +1,7 @@
 {
   "brain": "Otak",
-  "vein": "Saraf",
   "heart": "Jantung",
-  "body": "Tubuh"
+  "body": "Tubuh",
+  "foot": "Kaki",
+  "other": "Lainnya"
 }
